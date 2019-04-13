@@ -63,6 +63,7 @@ h2 {
 h3 {
     font-size: 110%;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 h2:after {
@@ -89,6 +90,7 @@ h2:after {
 .box p {
     font-size: 90%;
     line-height: 145%;
+    text-align: center;
 }
 
 /* -------------------------------------- */
@@ -194,6 +196,25 @@ header {
     color: #e67e22;
     
 }
+/* -------------------------------------- */
+/*            ---Section 3---             */
+/*              ---Meals---               */
+/* -------------------------------------- */
 
-
-
+.meal-showcase {
+   list-style: none;
+    width: 100%;
+}
+.meal-showcase li {
+    display: block;
+    width: 25%;
+    float:left;
+}
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+.meal-photo img {
+    width: 100%;
+    height: auto;
+}
