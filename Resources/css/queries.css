@@ -47,9 +47,9 @@
     .section-plans li {font-size: 90%;}
 
     .contact-form { width: 80%;}
-}
     .section-form {width: 80%;}
-
+    section.section-form input[type=submit] {width:100%;}
+}
 
 
 
