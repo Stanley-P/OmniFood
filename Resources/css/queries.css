@@ -3,12 +3,12 @@
 /* --------------------------------------- */
 
 @media only screen and (max-width: 1200px) {
-    
-.hero-text-box {
-    width: 100%;
-    padding: 0 2%;
-}
-.row {padding: 0 2%;}
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {padding: 0 2%;}
 
 
 }
@@ -22,21 +22,21 @@
     body{font-size: 18px;}
     section{padding: 60px;}
     .long-copy {
-    width: 80%;
-    margin-left: 10%;
-}
+        width: 80%;
+        margin-left: 10%;
+    }
     .step-box {margin-top: 10px;}
     .step-box:last-child {margin-top: 40px;}
     .work-step {margin-bottom: 40px;}
     .work-step:last-of-type {margin-bottom: 40px;}
-    
+
     .app-screen {width: 50%;}
-    
+
     .icon-small{
         width: 17px;
         margin-right: 5px;
     }
-    
+
     .city-feature {font-size: 90%;}
     .plan-box {
         width: 100%;
@@ -59,45 +59,79 @@
 /* --------------------------------------- */
 
 @media only screen and (max-width: 767px) {
-    
+
     body{font-size: 16px;}
     section {padding: 30px;}
     .row,
     .hero-text-box {padding: 0 4%;}
     .col {
-    width: 100%;
-    margin: 0 0 4% 0;   
-}
-    
-    .main-nav {display: none;}
+        width: 100%;
+        margin: 0 0 4% 0;   
+    }
+
+   .main-nav {display: none;}
     .long-copy {
-    width: 100%;
-    margin-left: 0%;
-}
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    /* --------------------------------------- */
+    /*       ------ Mobile nav icon -----      */
+    /* --------------------------------------- */
+
+    .mobile-nav-icon {display: inline-block;}
+
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+    }
+
+    .sticky .main-nav {margin-top: 18px;}
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0;
+    }
+    .sticky .mobile-nav-icon i {color: #555;}
+    .sticky .mobile-nav-icon i {margin-top: 10px;}
+
     h1{ font-size:180%;}
     h2{ font-size:140%;}
-    
+
     .step-box {margin-top: 8px;}
     .step-box:last-child {margin-top: 20px;}
-    
+
     .work-step div {
-    border: 1px solid #e67e22;
-    height: 40px;
-    width: 40px;
-    padding-top: 7px;
-    margin-right: 15px;
-}
+        border: 1px solid #e67e22;
+        height: 40px;
+        width: 40px;
+        padding-top: 7px;
+        margin-right: 15px;
+    }
+
     .step-box:first-child {text-align: center;}
+
     .app-screen { width: 38%;}
-    
+
     section { padding: 25px 0;}
     .contact-form { width: 100%}
     .section-form {width: 100%;}
-    
+
     section.section-steps img {width: 30%; height: 30%;}
-    
+
     section.section-form input[type=submit] {width:100%;}
-    
+
 
 }
 
@@ -107,5 +141,5 @@
 /* --------------------------------------- */
 
 @media only screen and (max-width: 480px) {
-    
+
 }
